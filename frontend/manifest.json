@@ -1,0 +1,9 @@
+{
+  "name": "Dani's Costure",
+  "short_name": "Costure",
+  "description": "Handcrafted ethnic wear boutique",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf6ef",
+  "theme_color": "#8e2b5f"
+}
