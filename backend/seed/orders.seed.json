@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "customerName": "Aarohi Mehta",
+    "phone": "9825012345",
+    "garment": "Anarkali Suit",
+    "quantity": 34,
+    "dueDate": "2026-11-11",
+    "amount": 12500,
+    "status": "new"
+  },
+  {
+    "id": 2,
+    "customerName": "Riya Desai",
+    "phone": "9876543210",
+    "garment": "Designer Blouse",
+    "quantity": 38,
+    "dueDate": "2026-11-12",
+    "amount": 25000,
+    "status": "new"
+  }
+]
