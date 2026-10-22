@@ -1,0 +1,12 @@
+/* Storefront styles: Customers */
+.module-customers .module-head .icon { background: #8e2b5f; }
+.module-customers .card { border-top: 3px solid #8e2b5f; }
+.module-customers .btn,
+.module-customers button[type="submit"] { background: #8e2b5f; }
+.module-customers .bar span { background: #8e2b5f; }
+.module-customers .timeline li.done::before { background: #8e2b5f; border-color: #8e2b5f; }
+
+@media (max-width: 640px) {
+  .module-customers .grid { grid-template-columns: 1fr; }
+  .module-customers .module-head { gap: 10px; }
+}
