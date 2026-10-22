@@ -1,0 +1,6 @@
+/* Admin styles: Stitching Masters */
+#content[data-module="stitching-masters"] .toolbar .btn { background: #1f5f8b; }
+#content[data-module="stitching-masters"] table.data thead th { border-bottom: 2px solid #1f5f8b; }
+#content[data-module="stitching-masters"] .status-available { background: #7180961a; color: #718096; border: 1px solid #71809655; }
+#content[data-module="stitching-masters"] .status-busy { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="stitching-masters"] .status-on-leave { background: #c530301a; color: #c53030; border: 1px solid #c5303055; }
