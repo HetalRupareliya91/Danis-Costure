@@ -1,0 +1,12 @@
+/* Storefront styles: Measurements */
+.module-measurements .module-head .icon { background: #b5651d; }
+.module-measurements .card { border-top: 3px solid #b5651d; }
+.module-measurements .btn,
+.module-measurements button[type="submit"] { background: #b5651d; }
+.module-measurements .bar span { background: #b5651d; }
+.module-measurements .timeline li.done::before { background: #b5651d; border-color: #b5651d; }
+
+@media (max-width: 640px) {
+  .module-measurements .grid { grid-template-columns: 1fr; }
+  .module-measurements .module-head { gap: 10px; }
+}
