@@ -1,0 +1,12 @@
+/* Storefront styles: Handwork */
+.module-handwork .module-head .icon { background: #c27c0e; }
+.module-handwork .card { border-top: 3px solid #c27c0e; }
+.module-handwork .btn,
+.module-handwork button[type="submit"] { background: #c27c0e; }
+.module-handwork .bar span { background: #c27c0e; }
+.module-handwork .timeline li.done::before { background: #c27c0e; border-color: #c27c0e; }
+
+@media (max-width: 640px) {
+  .module-handwork .grid { grid-template-columns: 1fr; }
+  .module-handwork .module-head { gap: 10px; }
+}
