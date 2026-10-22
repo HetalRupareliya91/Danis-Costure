@@ -1,0 +1,30 @@
+/* Admin panel - mobile view (sidebar becomes a drawer, tables become cards) */
+@media (max-width: 860px) {
+  .app { grid-template-columns: 1fr; }
+  .sidebar { position: fixed; left: 0; top: 0; bottom: 0; width: 260px; z-index: 30; transform: translateX(-100%); transition: transform 0.25s; }
+  body.sidebar-open .sidebar { transform: none; box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.35); }
+  .sidebar-toggle { display: block; }
+  .header { padding: 14px 16px; position: sticky; top: 0; z-index: 10; }
+  .header h1 { font-size: 18px; }
+  #content { padding: 16px; }
+}
+
+@media (max-width: 640px) {
+  .view-site { display: none; }
+  .toolbar { flex-wrap: wrap; }
+  .toolbar input { flex-basis: 100%; }
+  .toolbar select { flex: 1; width: auto; }
+  .table-wrap { background: transparent; border: 0; }
+  table.data thead { display: none; }
+  table.data, table.data tbody, table.data tr, table.data td { display: block; width: 100%; }
+  table.data tr { background: #fff; border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; padding: 6px 0; }
+  table.data td { border: 0; padding: 6px 14px; white-space: normal; display: flex; justify-content: space-between; gap: 12px; }
+  table.data td::before { content: attr(data-label); color: var(--muted); font-size: 12px; }
+  table.data td.actions { justify-content: flex-end; }
+  table.data td.actions::before { content: none; }
+  .modal-fields { grid-template-columns: 1fr; }
+  .modal { padding: 0; align-items: end; }
+  .modal-card { border-radius: 18px 18px 0 0; max-height: 92vh; }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .toast { left: 16px; right: 16px; text-align: center; }
+}
