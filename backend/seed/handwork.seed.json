@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "orderId": 1,
+    "workType": "Zardosi",
+    "artisan": "Rafiq Bhai",
+    "stitchCount": 5000,
+    "dueDate": "2026-11-11",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "orderId": 2,
+    "workType": "Aari Work",
+    "artisan": "Suresh Kumar",
+    "stitchCount": 10000,
+    "dueDate": "2026-11-12",
+    "status": "pending"
+  }
+]
