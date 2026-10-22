@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Aarohi Mehta",
+    "phone": "9825012345",
+    "email": "aarohi@example.com",
+    "city": "Mumbai",
+    "notes": "Loosen waist by half inch",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Riya Desai",
+    "phone": "9876543210",
+    "email": "riya@example.com",
+    "city": "Jaipur",
+    "notes": "Add tassels to dupatta",
+    "status": "active"
+  }
+]
