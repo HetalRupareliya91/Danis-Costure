@@ -1,0 +1,6 @@
+/* Admin styles: Products */
+#content[data-module="products"] .toolbar .btn { background: #a0263c; }
+#content[data-module="products"] table.data thead th { border-bottom: 2px solid #a0263c; }
+#content[data-module="products"] .status-available { background: #7180961a; color: #718096; border: 1px solid #71809655; }
+#content[data-module="products"] .status-made-to-order { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="products"] .status-sold-out { background: #c530301a; color: #c53030; border: 1px solid #c5303055; }
