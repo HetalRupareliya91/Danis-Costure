@@ -1,0 +1,10 @@
+/* Admin styles: Orders */
+#content[data-module="orders"] .toolbar .btn { background: #6a3d9a; }
+#content[data-module="orders"] table.data thead th { border-bottom: 2px solid #6a3d9a; }
+#content[data-module="orders"] .status-new { background: #7180961a; color: #718096; border: 1px solid #71809655; }
+#content[data-module="orders"] .status-cutting { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="orders"] .status-handwork { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="orders"] .status-stitching { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="orders"] .status-press { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="orders"] .status-ready { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="orders"] .status-delivered { background: #2f855a1a; color: #2f855a; border: 1px solid #2f855a55; }
