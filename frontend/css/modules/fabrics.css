@@ -1,0 +1,12 @@
+/* Storefront styles: Fabrics */
+.module-fabrics .module-head .icon { background: #2e7d6b; }
+.module-fabrics .card { border-top: 3px solid #2e7d6b; }
+.module-fabrics .btn,
+.module-fabrics button[type="submit"] { background: #2e7d6b; }
+.module-fabrics .bar span { background: #2e7d6b; }
+.module-fabrics .timeline li.done::before { background: #2e7d6b; border-color: #2e7d6b; }
+
+@media (max-width: 640px) {
+  .module-fabrics .grid { grid-template-columns: 1fr; }
+  .module-fabrics .module-head { gap: 10px; }
+}
