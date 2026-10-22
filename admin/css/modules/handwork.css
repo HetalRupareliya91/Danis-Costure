@@ -1,0 +1,7 @@
+/* Admin styles: Handwork */
+#content[data-module="handwork"] .toolbar .btn { background: #c27c0e; }
+#content[data-module="handwork"] table.data thead th { border-bottom: 2px solid #c27c0e; }
+#content[data-module="handwork"] .status-pending { background: #7180961a; color: #718096; border: 1px solid #71809655; }
+#content[data-module="handwork"] .status-in-progress { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="handwork"] .status-quality-check { background: #b7791f1a; color: #b7791f; border: 1px solid #b7791f55; }
+#content[data-module="handwork"] .status-done { background: #2f855a1a; color: #2f855a; border: 1px solid #2f855a55; }
