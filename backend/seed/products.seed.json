@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Aarohi Mehta",
+    "category": "Bridal Lehenga",
+    "price": 12500,
+    "fabric": "Banarasi Silk",
+    "stock": 34,
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "Riya Desai",
+    "category": "Silk Saree",
+    "price": 25000,
+    "fabric": "Velvet",
+    "stock": 38,
+    "status": "available"
+  }
+]
