@@ -1,0 +1,12 @@
+/* Storefront styles: Embroidery Designs */
+.module-embroidery .module-head .icon { background: #7b4b94; }
+.module-embroidery .card { border-top: 3px solid #7b4b94; }
+.module-embroidery .btn,
+.module-embroidery button[type="submit"] { background: #7b4b94; }
+.module-embroidery .bar span { background: #7b4b94; }
+.module-embroidery .timeline li.done::before { background: #7b4b94; border-color: #7b4b94; }
+
+@media (max-width: 640px) {
+  .module-embroidery .grid { grid-template-columns: 1fr; }
+  .module-embroidery .module-head { gap: 10px; }
+}
