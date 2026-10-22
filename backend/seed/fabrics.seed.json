@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Aarohi Mehta",
+    "type": "Raw Silk",
+    "color": "Maroon",
+    "metersInStock": 34,
+    "pricePerMeter": 450,
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "Riya Desai",
+    "type": "Georgette",
+    "color": "Emerald Green",
+    "metersInStock": 38,
+    "pricePerMeter": 900,
+    "status": "available"
+  }
+]
