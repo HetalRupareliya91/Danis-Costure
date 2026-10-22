@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dani's Costure | Admin Panel</title>
+  <meta name="theme-color" content="#5e1a3e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/admin-mobile.css">
+</head>
+<body>
+  <section id="loginView" class="login" hidden>
+    <form id="loginForm" class="login-card">
+      <div class="brand">Dani's <span>Costure</span></div>
+      <p>Boutique admin panel</p>
+      <label>Username<input name="username" autocomplete="username" required></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+      <button type="submit" class="btn">Log in</button>
+      <small>Default: admin / admin123 (change in backend/.env)</small>
+    </form>
+  </section>
+
+  <div id="appView" class="app" hidden>
+    <aside id="sidebar" class="sidebar">
+      <div class="brand">Dani's <span>Costure</span></div>
+      <nav id="moduleNav"></nav>
+      <button id="logoutBtn" class="logout">Log out</button>
+    </aside>
+    <div class="main">
+      <header class="header">
+        <button id="sidebarToggle" class="sidebar-toggle" aria-label="Menu">&#9776;</button>
+        <h1 id="pageTitle">Dashboard</h1>
+        <a class="view-site" href="/" target="_blank" rel="noopener">View website</a>
+      </header>
+      <main id="content"></main>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" hidden>
+    <form id="modalForm" class="modal-card">
+      <h2 id="modalTitle">New record</h2>
+      <div id="modalFields" class="modal-fields"></div>
+      <div class="modal-actions">
+        <button type="button" id="modalCancel" class="btn btn-light">Cancel</button>
+        <button type="submit" class="btn">Save</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="js/admin.js"></script>
+</body>
+</html>
