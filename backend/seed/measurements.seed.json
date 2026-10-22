@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "customerName": "Aarohi Mehta",
+    "phone": "9825012345",
+    "chest": 34,
+    "waist": 34,
+    "hip": 34,
+    "shoulder": 34,
+    "length": 34,
+    "sleeve": 34,
+    "status": "received"
+  },
+  {
+    "id": 2,
+    "customerName": "Riya Desai",
+    "phone": "9876543210",
+    "chest": 38,
+    "waist": 38,
+    "hip": 38,
+    "shoulder": 38,
+    "length": 38,
+    "sleeve": 38,
+    "status": "received"
+  }
+]
