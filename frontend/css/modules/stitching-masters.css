@@ -1,0 +1,12 @@
+/* Storefront styles: Stitching Masters */
+.module-stitching-masters .module-head .icon { background: #1f5f8b; }
+.module-stitching-masters .card { border-top: 3px solid #1f5f8b; }
+.module-stitching-masters .btn,
+.module-stitching-masters button[type="submit"] { background: #1f5f8b; }
+.module-stitching-masters .bar span { background: #1f5f8b; }
+.module-stitching-masters .timeline li.done::before { background: #1f5f8b; border-color: #1f5f8b; }
+
+@media (max-width: 640px) {
+  .module-stitching-masters .grid { grid-template-columns: 1fr; }
+  .module-stitching-masters .module-head { gap: 10px; }
+}
