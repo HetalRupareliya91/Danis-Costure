@@ -1,0 +1,5 @@
+/* Admin styles: Customers */
+#content[data-module="customers"] .toolbar .btn { background: #8e2b5f; }
+#content[data-module="customers"] table.data thead th { border-bottom: 2px solid #8e2b5f; }
+#content[data-module="customers"] .status-active { background: #7180961a; color: #718096; border: 1px solid #71809655; }
+#content[data-module="customers"] .status-inactive { background: #c530301a; color: #c53030; border: 1px solid #c5303055; }
