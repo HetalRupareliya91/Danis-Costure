@@ -1,0 +1,12 @@
+/* Storefront styles: Orders */
+.module-orders .module-head .icon { background: #6a3d9a; }
+.module-orders .card { border-top: 3px solid #6a3d9a; }
+.module-orders .btn,
+.module-orders button[type="submit"] { background: #6a3d9a; }
+.module-orders .bar span { background: #6a3d9a; }
+.module-orders .timeline li.done::before { background: #6a3d9a; border-color: #6a3d9a; }
+
+@media (max-width: 640px) {
+  .module-orders .grid { grid-template-columns: 1fr; }
+  .module-orders .module-head { gap: 10px; }
+}
